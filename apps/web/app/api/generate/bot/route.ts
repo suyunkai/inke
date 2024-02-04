@@ -9,7 +9,7 @@ const api_key = process.env.OPENAI_API_KEY || "";
 const api_keys = process.env.OPENAI_API_KEYs || "";
 
 const openai = new OpenAI({
-  baseURL: process.env.OPENAI_API_PROXY || "http://81.70.207.129:2357",
+  baseURL: process.env.OPENAI_API_PROXY || "https://gptgod.online",
 });
 
 // IMPORTANT! Set the runtime to edge: https://vercel.com/docs/functions/edge-functions/edge-runtime
